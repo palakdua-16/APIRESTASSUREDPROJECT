@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="C:/Users/palak/IdeaProjects/APIRESTASSUREDPROJECT"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.017">
+    <properties></properties>
+
+
+
+            <testcase
+                name="createToken"
+                time="0.003"
+                classname="org.example.tests.integration.TCintegration1">
+            </testcase>
+            <testcase
+                name="testCreatingBooking"
+                time="0.006"
+                classname="org.example.tests.integration.TCintegration1">
+            </testcase>
+            <testcase
+                name="verifyBookingId"
+                time="0.003"
+                classname="org.example.tests.integration.TCintegration1">
+            </testcase>
+            <testcase
+                name="testDeleteBookingById"
+                time="0.002"
+                classname="org.example.tests.integration.TCintegration1">
+            </testcase>
+            <testcase
+                name="testUpdateBookingByID"
+                time="0.003"
+                classname="org.example.tests.integration.TCintegration1">
+            </testcase>
+</testsuite>

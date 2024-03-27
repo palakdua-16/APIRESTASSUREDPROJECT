@@ -5,20 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="471c42e8-f2be-40f3-bb7a-2a5a1d010f56" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/endpoints/APIConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/PayloadManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/payloads/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/payloads/Bookingdates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/payloads/Bookingresponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/actions/AssertActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/base/baseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/tests/crud/TCcreatebooking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/utils/UtilExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testdata.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/payloads/Auth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/payloads/TokenResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/tests/crud/TC_integration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/tests/integration/TCintegration1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/tests/integration/TCintegration2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testngxmls/testng_integration.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/endpoints/APIConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/endpoints/APIConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/modules/PayloadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/modules/PayloadManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/base/baseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/base/baseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/testngxmls/testng_crud_post.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/testngxmls/testng_crud_post.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,22 +47,118 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.APIRESTASSUREDPROJECT [clean].executor": "Run",
+    "Maven.APIRESTASSUREDPROJECT [install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/palak/IdeaProjects/APIRESTASSUREDPROJECT/src/test/testngxmls/testng_integration.xml.executor": "Run",
+    "TestNG.C:/Users/palak/IdeaProjects/APIRESTASSUREDPROJECT/testng.xml.executor": "Run",
+    "TestNG.C:/Users/palak/IdeaProjects/APIRESTASSUREDPROJECT/testng_integration.xml.executor": "Run",
+    "TestNG.TCintegration1.testCreatingBooking.executor": "Run",
+    "TestNG.TCintegration2.executor": "Run",
+    "TestNG.TCintegration2.testCreatingBooking (1).executor": "Run",
+    "TestNG.TCintegration2.testCreatingBooking.executor": "Run",
+    "TestNG.TCintegration2.testDeleteBookingById.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/palak/IdeaProjects/APIRESTASSUREDPROJECT/src/test/resources"
+    "last_opened_file_path": "C:/Users/palak/IdeaProjects/APIRESTASSUREDPROJECT/src/test/testngxmls"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\palak\IdeaProjects\APIRESTASSUREDPROJECT\src\test\testngxmls" />
       <recent name="C:\Users\palak\IdeaProjects\APIRESTASSUREDPROJECT\src\test\resources" />
       <recent name="C:\Users\palak\IdeaProjects\APIRESTASSUREDPROJECT\src\main\java\org\example\payloads" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\palak\IdeaProjects\APIRESTASSUREDPROJECT\src\test\testngxmls" />
+      <recent name="C:\Users\palak\IdeaProjects\APIRESTASSUREDPROJECT" />
     </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/palak/IdeaProjects/APIRESTASSUREDPROJECT/testng.xml">
+    <configuration name="C:/Users/palak/IdeaProjects/APIRESTASSUREDPROJECT/src/test/testngxmls/testng_integration.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIRESTASSUREDPROJECT" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/testngxmls/testng_integration.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/palak/IdeaProjects/APIRESTASSUREDPROJECT/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIRESTASSUREDPROJECT" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TCintegration2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIRESTASSUREDPROJECT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.tests.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.tests.integration" />
+      <option name="MAIN_CLASS_NAME" value="org.example.tests.integration.TCintegration2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TCintegration2.testCreatingBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIRESTASSUREDPROJECT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.tests.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.tests.integration" />
+      <option name="MAIN_CLASS_NAME" value="org.example.tests.integration.TCintegration2" />
+      <option name="METHOD_NAME" value="testCreatingBooking" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TCintegration2.testDeleteBookingById" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIRESTASSUREDPROJECT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.tests.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.tests.integration" />
+      <option name="MAIN_CLASS_NAME" value="org.example.tests.integration.TCintegration2" />
+      <option name="METHOD_NAME" value="testDeleteBookingById" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/palak/IdeaProjects/APIRESTASSUREDPROJECT/testng.xml" />
+        <item itemvalue="TestNG.C:/Users/palak/IdeaProjects/APIRESTASSUREDPROJECT/src/test/testngxmls/testng_integration.xml" />
+        <item itemvalue="TestNG.TCintegration2" />
+        <item itemvalue="TestNG.TCintegration2.testDeleteBookingById" />
+        <item itemvalue="TestNG.TCintegration2.testCreatingBooking" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

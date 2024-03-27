@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/palak/IdeaProjects/APIRESTASSUREDPROJECT">
+        <classes>
+            <class name="org.example.tests.crud.TCcreatebooking">
+                <methods>
+                    <include name="positivetc"/>
+                </methods>
+            </class>
+            <class name="org.example.tests.integration.TCintegration1">
+                <methods>
+                    <include name="createToken"/>
+                    <include name="testCreatingBooking"/>
+                    <include name="verifyBookingId"/>
+                    <include name="testUpdateBookingByID"/>
+                    <include name="testDeleteBookingById"/>
+                </methods>
+            </class>
+            <class name="org.example.tests.integration.TCintegration2">
+                <methods>
+                    <include name="testCreatingBooking"/>
+                    <include name="testVerifyBookingId"/>
+                    <include name="testUpdateBookingByID"/>
+                    <include name="testDeleteBookingById"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <groups>
+        <run>
+            <include name="integration" />
+        </run>
+    </groups>
+    <test verbose="2" preserve-order="true" name="APIAutomationFrameworkRA5X">
+        <classes>
+            <class name="org.example.tests.integration.TCintegration2">
+
+            </class>
+        </classes>
+    </test>
+</suite>
